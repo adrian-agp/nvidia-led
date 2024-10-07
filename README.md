@@ -4,7 +4,7 @@ LEDs are funny. LEDs are irresistible. Everybody loves LEDs. Why do you think yo
 
 Nvidia-led is equivalent to [GeForce Experience LED Visualizer](http://www.geforce.com/whats-new/guides/geforce-experience-nvidia-geforce-gtx-led-visualizer-user-guide#1) for GNU/Linux. Get awesome effects for NVIDIA GeForce GTX LED logo like this:
 
-<p align="center"><a href="https://www.youtube.com/watch?v=vUR2Ul4HKUc"><img src="http://img.youtube.com/vi/5W5Rm8K-hcY/0.jpg" alt="Demo video" width="480" height="320" border="0"></a></p>
+<p align="center"><a href="https://www.youtube.com/watch?v=vUR2Ul4HKUc"><img src="https://www.youtube.com/channel/UC2RRqfBBNDI5ik98dAo0e7Q/community?lb=UgkxPfBYMSxemN7zKnebipfFY3ZxpAcMnhPR" alt="Demo video" width="480" height="320" border="0"></a></p>
 
 ###Requirements
 
