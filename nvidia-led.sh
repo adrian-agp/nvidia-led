@@ -20,24 +20,24 @@ while true; do
 
     case $option in
         1)
-            /home/$USER/.config/brightness/blink_fast.sh &
+            /home/$USER/.config/nvidia-led/brightness/blink_fast.sh &
             pid=$!  # Guarda el PID del proceso
             wait $pid  # Espera a que el proceso termine
             ;;
         2)
-            /home/$USER/.config/brightness/blink_slow.sh &
+            /home/$USER/.config/nvidia-led/brightness/blink_slow.sh &
             pid=$!
             wait $pid
             ;;
         3)
             read -p "Ingresa la intensidad (0-100): " intensity
-            /home/$USER/.config/brightness/static_led.sh $intensity
+            /home/$USER/.config/nvidia-led/static_led.sh $intensity
             ;;
         4)
             read -p "Ingresa la intensidad mínima (0-100): " start_intensity
             read -p "Ingresa la intensidad máxima (0-100): " end_intensity
             read -p "Ingresa el tiempo total del fade (subir y bajar) en segundos: " fade_time
-            /home/$USER/.config/brightness/fade_led.sh $start_intensity $end_intensity $fade_time &
+            /home/$USER/.config/nvidia-led/brightness/fade_led.sh $start_intensity $end_intensity $fade_time &
             pid=$!
             wait $pid
             ;;
